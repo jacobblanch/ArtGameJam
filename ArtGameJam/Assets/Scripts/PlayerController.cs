@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour {
 
         if (Physics.Raycast(ray, out hitInfo))
         {
-            transform.position = hitInfo.point + new Vector3(0,2,0);
+            transform.position = hitInfo.point + new Vector3(0,1,0);
         }
         if (Input.GetKey("escape"))
         {
